@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  min-width: 1920px;
+  min-height: 1080px;
+}
+
+.left-box {
+  width: 50%;
+  background-image: url("../img/landing.png");
+  background-size: cover;
+}
+
+.right-box {
+  width: 50%;
+  background-color: #fd5334;
+  position: relative;
+}
+
+.left-box-header {
+  height: 84px;
+  background-color: #7025fb;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-left: 82.3px;
+}
+
+.right-box__title {
+  position: absolute;
+  top: 265px;
+  left: 85px;
+  max-width: 600px;
+  font-family: "Nunito", sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 109px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.right-box__title span {
+  font-weight: 900;
+}
+
+.right-box__sm {
+  position: absolute;
+  top: 306px;
+  left: 607px;
+  color: #212529;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn {
+  position: absolute;
+  top: 601px;
+  left: 85px;
+  display: flex;
+  gap: 12px;
+  font-family: "Open Sans", sans-serif;
+  width: 191px;
+  height: 53px;
+  background-color: #212529;
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+  border-radius: 8px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
+
+/* //////////////////////
+
+FORMS PAGE
+
+/////////////////////////  */
+
+.left-box-form {
+  width: 50%;
+  background-image: url("../img/unsplash_27LH_0jXKYI.png");
+  background-size: cover;
+  position: relative;
+}
+
+.form-heading {
+  position: absolute;
+  top: 251px;
+  left: 132px;
+  font-family: "Nunito", sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 26px;
+  text-transform: uppercase;
+  max-width: 440px;
+  line-height: 35px;
+  color: #212529;
+}
+
+.form-name {
+  position: absolute;
+  top: 358px;
+  left: 132px;
+  font-family: "Nunito";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #e5e6e8;
+}
+
+.right-box-form {
+  width: 50%;
+}
+
+.right-box-header {
+  display: flex;
+  align-items: center;
+  height: 84px;
+  border-bottom: 1px solid rgba(185, 180, 196, 0.3);
+}
+
+.right-box-header-p {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: capitalize;
+  padding-left: 48px;
+}
+
+.squares {
+  display: flex;
+  align-items: center;
+  gap: 86px;
+  padding-left: 48px;
+  padding-top: 60px;
+  position: relative;
+}
+
+.squares-left {
+  display: flex;
+  gap: 7px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.squares-left__num {
+  padding: 8px 15px 7px 14px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  border: 1px solid #e5e6e8;
+  border-radius: 8px;
+  position: relative;
+}
+
+.squares-left__num1 {
+  padding: 8px 15px 7px 14px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  border: 1px solid #e5e6e8;
+  border-radius: 8px;
+  position: relative;
+}
+
+.squares-left__num::after {
+  top: 20px;
+  left: 48px;
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid rgba(185, 180, 196, 0.3);
+  width: 174px;
+}
+
+.squares-left__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.line {
+  border-top: 1px solid rgba(185, 180, 196, 0.3);
+  width: 174px;
+}
+
+.form-title-box {
+  padding-top: 113px;
+  padding-left: 48px;
+}
+
+.form-title {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+.title-description {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #95939a;
+  margin-top: 3px;
+}
+
+/* FORM */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 775px;
+  margin-top: 85px;
+  margin-left: 48px;
+}
+
+.form-input {
+  padding: 8px 16px;
+  outline: none;
+  border: none;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.125);
+  border-radius: 4px;
+  width: 100%;
+  max-width: 775px;
+}
+
+.form-input::placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
